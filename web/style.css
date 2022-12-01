@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, gray, rgb(66, 66, 66), black);
+}
+
+.container {
+    display: inline-block;
+    background: linear-gradient(-45deg, rgb(165, 165, 165), rgb(109, 109, 109));
+    width: 500px;
+    height: 500px;
+    margin: 10% auto 10% 30%;
+}
