@@ -7,13 +7,55 @@
 }
 
 body {
-    background: linear-gradient(-45deg, gray, rgb(66, 66, 66), black);
+    background: linear-gradient(-45deg, rgb(116, 115, 207), rgb(95, 75, 184), rgb(88, 28, 184));
 }
 
 .container {
     display: inline-block;
     background: linear-gradient(-45deg, rgb(165, 165, 165), rgb(109, 109, 109));
-    width: 500px;
-    height: 500px;
-    margin: 10% auto 10% 30%;
+    width: 800px;
+    height: 620px;
+    margin: 10% auto 10% 18%;
+    border-radius: 15px;
+    box-shadow: 8px 10px 18px;
+}
+.container-title {
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+	overflow: scroll;
+	height: 250px;
+	width: 75%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px 15px 15px 70px;
+	border-radius: 10px;
+}
+
+.container-box_bar {
+    text-align: right;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+.container-box_bar h4 {
+    display: inline-block;
+}
+
+#input_message {
+    display: inline-block;
+    width: 25%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px inset;
+}
+
+#send_message {
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px inset;
 }
