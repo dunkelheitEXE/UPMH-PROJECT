@@ -8,6 +8,29 @@
     <title>index</title>
 </head>
 <body>
+    <div class="menu-main">
+        <img src="img\xddddd.jpg" alt="">
+        <ul class="nav">
+            <li class="buttons-nav"><a href="">Inicio</a></li>
+            <li class="buttons-nav"><a href="">Servicios</a>
+                <ul>
+                    <li><a href="">Submenu1</a></li>
+                    <li><a href="">Submenu2</a></li>
+                    <li><a href="">Submenu3</a></li>
+                    <li><a href="">Submenu4</a></li>
+                </ul>
+            </li>
+            <li class="buttons-nav"><a href="">Acerca de</a>
+                <ul>
+                    <li><a href="">Submenu1</a></li>
+                    <li><a href="">Submenu2</a></li>
+                    <li><a href="">Submenu3</a></li>
+                    <li><a href="">Submenu4</a></li>
+                </ul>
+            </li>
+            <li class="buttons-nav"><a href="">Contacto</a></li>
+        </ul>
+    </div>
     <div class="container">
         <div class="container-title">
             <h1>Ingrese sus dudas</h1>
@@ -19,12 +42,12 @@
             <div class="container-box_bar">
                 <h4>Usuario:</h4>
                 <input id="input_message" type="text" placeholder="escribe tu duda...">
-                <button id="send_message">Send</button>
+                <button id="send_message" onclick="sendResponse()">Send</button>
             </div>
         </div>
     </div>
 
     <!--SCRIPT-->
-    <script src="script.js"></script>
+    <script src="function.js"></script>
 </body>
 </html>

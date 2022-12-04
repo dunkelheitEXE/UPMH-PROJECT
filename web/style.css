@@ -7,8 +7,68 @@
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(116, 115, 207), rgb(95, 75, 184), rgb(88, 28, 184));
+    background: linear-gradient(-45deg, rgb(88, 28, 184), rgb(87, 76, 138), rgb(88, 28, 184));
 }
+
+/*ESTILO DE LA BARRA DE NAVEGACION ---*/
+.menu-main {
+    text-align: center;
+    background-color: #000;
+}
+
+.menu-main img{
+    width: 75px;
+    height: 75px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.buttons-nav {
+    width: 125px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+/*FIN ESTILO BARRA DE NAVEGACION ---*/
 
 .container {
     display: inline-block;
