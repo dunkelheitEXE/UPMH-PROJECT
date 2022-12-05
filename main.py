@@ -13,7 +13,7 @@ words = ['Me siento mal', 'Contamos con una enfermeria en el edificio LT1',
 
 trainer = ListTrainer(bot)
 trainer.train(words)
-
+#holapapito
 while True:
     consulta = input("User: ")
     respuesta = bot.get_response(consulta)
