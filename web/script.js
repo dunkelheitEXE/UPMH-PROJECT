@@ -1,10 +1,20 @@
 let text = document.getElementById('text');
 
 let preguntas = ['¿Donde puedo consultar sobre becas?',
-                '¿Donde esta la enfermeria?'];
+                '¿Donde esta la enfermeria?',
+                '¿Tenemos biblioteca virtual?',
+                "¿Es de libre acceso?",
+                "¿Puedo tener una consulta en servicio medico?",
+                "¿Donde se encuentra serivicio medico?"
+            ];
 
 let responses = ['Dirigete al edificio UD1 con la Lic. Elisa Acuña',
-                'Puedes encontrarla en el edificio LT1'];
+                'Puedes encontrarla en el edificio LT1',
+                "No por el momento no se cuante con biblioteca virtual pero la escuela cuenta con convenios con paginas que te pueden ser utiles las cuale puedes encontrar en el siguiente link: https://www.upmetropolitana.edu.mx/centro-informacion/bibliotecas-digitales",
+                "Si, el acceso es libre, solo ocupas tu credencial de estudiante de la UPMH",
+                "NR",
+                "NR"
+            ];
 
                
 function sendMessage() {
