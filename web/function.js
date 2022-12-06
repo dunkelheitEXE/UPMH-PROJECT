@@ -1,8 +1,15 @@
 let consult;
 let box = document.getElementById('text');
 
-let userWords = ['hola', 'disculpa'];
-let botWords = ['Hola usuario', 'Dime ¿En que puedo ayudarte?'];
+let userWords = ['hola',
+                'donde esta la enfermeria?',
+                'consulta de becas',
+                'con quien puedo acudir para becas?',
+                ];
+let botWords = ['Hola usuario',
+                'Usted puede encontrar la enfermeria en el edificio LT1',
+                'Con la lic. Elisa Acuña',
+                'En el edificio UD1'];
 
 let message_confirm = 1;
 
