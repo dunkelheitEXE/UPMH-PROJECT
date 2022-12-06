@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>index</title>
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
 </head>
 <body>
     <div class="menu-main">
@@ -18,12 +18,10 @@
                     <li><a href="index.html">Chat</a></li>
                 </ul>
             </li>
-            <li class="buttons-nav"><a href="">Acerca de</a>
-            </li>
+            <li class="buttons-nav"><a href="">Acerca de</a></li>
             <li class="buttons-nav"><a href="">Contacto</a></li>
         </ul>
     </div>
-    
     <div class="container">
         <div class="container-title">
             <h1>Ingrese sus dudas</h1>
@@ -33,14 +31,18 @@
                 <div id="text"></div>
             </div>
             <div class="container-box_bar">
-                <h4>Usuario:</h4>
-                <input id="input_message" type="text" placeholder="escribe tu duda...">
-                <button id="send_message" onclick="sendResponse()">Send</button>
+                <label for="question">Usuario:</label>
+                <select name="question" id="selector">
+                    <option selected>na</option>
+                    <option value="¿Donde puedo consultar sobre becas?">¿Donde puedo consultar sobre becas?</option>
+                    <option value="¿Donde esta la enfermeria?">¿Donde esta la enfermeria?</option>
+                </select>
+
+                <button onclick="sendMessage()">Enviar</button>
             </div>
         </div>
     </div>
 
-    <!--SCRIPT-->
-    <script src="function.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

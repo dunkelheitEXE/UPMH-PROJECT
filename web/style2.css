@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, rgb(88, 28, 184), rgb(87, 76, 138), rgb(88, 28, 184));
+}
+
+
+/*BARRA DE NAVEGACION*/
+.menu-main {
+    text-align: center;
+    background-color: #000;
+}
+
+.menu-main img{
+    width: 75px;
+    height: 75px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.buttons-nav {
+    width: 125px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+/*FIN BARRA DE NAVEGACION*/
+
+.container {
+    display: inline-block;
+    background: linear-gradient(-45deg, rgb(165, 165, 165), rgb(109, 109, 109));
+    width: 800px;
+    height: 620px;
+    margin: 10% auto 10% 18%;
+    border-radius: 15px;
+    box-shadow: 8px 10px 18px;
+}
+.container-title {
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+	overflow: scroll;
+	height: 250px;
+	width: 75%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px 15px 15px 70px;
+	border-radius: 10px;
+}
+
+.container-box_bar {
+    text-align: right;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+.container-box_bar h4 {
+    display: inline-block;
+}
