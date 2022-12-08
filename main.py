@@ -57,4 +57,5 @@ trainer.train(words)
 while True:
     consulta = input("User: ")
     respuesta = bot.get_response(consulta)
+    # Comando de conexion a JavaScript.c(respuesta)
     print("Bot: ", respuesta)

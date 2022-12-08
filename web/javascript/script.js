@@ -6,7 +6,7 @@ let preguntas = ['¿Donde puedo consultar sobre becas?',
 let responses = ['Dirigete al edificio UD1 con la Lic. Elisa Acuña',
                 'Puedes encontrarla en el edificio LT1'];
 
-               
+           
 function sendMessage() {
     let q = document.getElementById('selector').value;
     text.innerHTML += '<h4 style="text-align: right;">' + q + '</h4>';
