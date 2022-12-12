@@ -1,10 +1,26 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-
-bot = ChatBot('UPMH-friend')
+Leo = ChatBot('Leo')
 # lista = ['Pregunta', 'respuesta del bot', ...]
 words = ['Me siento mal', 'Contamos con una enfermeria en el edificio LT1',
         'Necesito ayuda emocional', 'Puedes acudir con tus orientadores en su respectivo edificio',
+        #Conversacion
+        "","",
+        "","",
+        "","",
+        "","",
+        "","",
+        "Hola","Hola, ¿Como estas? ¿Como puedo ayudarte?",
+        "¿Que puedes hacer?","Estoy programado para poder repoder algunas de tus dudas sobre temas referentes a la UPMH",
+        "¿sobre que temas me puedes ayudar?","Bueno, puedo ayudarte con los temas siguientes: Becas, Bliblioteca, Servivcion medicos, Talleres, Cordinacion de idiomas, Control escolar y algunas otras dudas puntuales. Pregunta y te dire si tengo uan respouesta para eso",
+        "","",
+        "","",
+        #Alumnos
+        "","",
+        "","",
+        "","",
+        "","",
+        "","",
         #Becas
         '¿Cómo puedo saber sobre becas?','Puedes acudir al edificio UD1 con la Lic. Elisa Acuña',
         "¿Qué becas de movilidad hay?","Solo hay una beca de movilidad está dirigida a estudiantes de escasos recursos, que no cuenten con ningún otro apoyo en efectivo o en especie y que colaboren en un servicio administrativo u operativo dentro de la Universidad.",
@@ -54,18 +70,16 @@ words = ['Me siento mal', 'Contamos con una enfermeria en el edificio LT1',
         "¿El examen ITEP funciona para titulación?","NR",
         "¿Cuándo estará disponible el gym?","NR",
         "","",
+        "","",
+        "","",
+        "","",
+        "","",]
 
-        "","",
-        "","",
-        "","",
-        "","",
-         ]
-
-trainer = ListTrainer(bot)
+trainer = ListTrainer(Leo)
 trainer.train(words)
-
+print("Hola, Soy Leo. ¿En que puedo ayudarte?")
 while True:
-    consulta = input("User: ")
-    respuesta = bot.get_response(consulta)
+    consulta = input("Tú: ")
+    respuesta = Leo.get_response(consulta)
     # Comando de conexion a JavaScript.c(respuesta)
-    print("Bot: ", respuesta)
+    print("Leo: ", respuesta)
